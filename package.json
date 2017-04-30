@@ -1,0 +1,33 @@
+{
+  "name": "es6-mocha-boilerplate",
+  "version": "1.0.0",
+  "description": "Get started quickly with ES6, Mocha, Yarn and Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "babel -d lib/ src/"
+  },
+  "keywords": [
+    "ES6",
+    "mocha",
+    "boilerplate",
+    "nodejs",
+    "yarn",
+    "dotenv",
+    "nodemon"
+  ],
+  "author": "davb",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mocha": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
