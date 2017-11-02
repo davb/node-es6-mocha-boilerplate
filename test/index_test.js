@@ -1,8 +1,9 @@
-import {expect} from './helper'
-import boilerplate from '../src'
+const {expect} = require('./helper')
+const boilerplate = require('../src')
 
-describe("boilerplate", function() {
-  it("is awesome", function() {
+
+describe("boilerplate", () => {
+  it("is awesome", () => {
     expect(boilerplate()).to.eq('awesome')
   })
 })
