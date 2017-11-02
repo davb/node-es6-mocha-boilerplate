@@ -1,1 +1,2 @@
-export const expect = require('chai').expect
+const expect = require('chai').expect
+module.exports = {expect}
