@@ -3,7 +3,7 @@ const boilerplate = require('../src')
 
 
 describe("boilerplate", () => {
-  it("is awesome", () => {
+  it("is awesome", () => {
     expect(boilerplate()).to.eq('awesome')
   })
 })
